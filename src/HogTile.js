@@ -14,7 +14,7 @@ function HogTile({ hog, hideHog }) {
           <img src={hog.image} alt={hog.name} />
         </div>
         <div className="content">
-          <a className="header">{hog.name}</a>
+          <h3 className="header">{hog.name}</h3>
           <div className="meta">
             <span className="date">Specialty: {hog.specialty}</span>
           </div>
