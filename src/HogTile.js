@@ -16,11 +16,11 @@ function HogTile({ hog, hideHog }) {
         <div className="content">
           <h3 className="header">{hog.name}</h3>
           <div className="meta">
-            <span className="date">Specialty: {hog.specialty}</span>
           </div>
           <div className="description">
             {showDetails && (
               <>
+                <span className="date">Specialty: {hog.specialty}</span>
                 <p>Weight: {hog.weight}</p>
                 <p>Greased: {hog.greased ? "Yes" : "No"}</p>
                 <p>Highest Medal Achieved: {hog["highest medal achieved"]}</p>
